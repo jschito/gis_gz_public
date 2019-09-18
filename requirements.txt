@@ -4,7 +4,4 @@ matplotlib
 numpy
 rasterio
 fiona
-csv
-pprint
-datetime
 shapely
