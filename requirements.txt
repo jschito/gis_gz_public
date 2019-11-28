@@ -8,3 +8,5 @@ shapely
 sklearn
 ipywidgets
 scipy
+descartes
+pysal
