@@ -9,4 +9,3 @@ sklearn
 ipywidgets
 scipy
 descartes
-pysal
