@@ -4,7 +4,7 @@
 """Set of tools for writing and visualizing files"""
 
 __author__ = 'Joram Schito'
-__copyright__ = 'Copyright 2017, ETH Zurich'
+__copyright__ = 'Copyright 2019, ETH Zurich'
 __credits__ = 'Joram Schito'
 __license__ = 'ETH Zurich'
 __version__ = '3.0.2'
@@ -413,15 +413,6 @@ def main():
         p2 = Proj(init = 'epsg=4326')
 
         (x, y) = pyproj.transform(p1, p2, coordinates[0], coordinates[1])
-
-
-def main_2():
-    with rasterio.open('V:\\GIS_GZ\\joram\\CS.tif', 'r') as src:
-        record = src.read()
-        hello = src.profile.copy()
-        hello['nodata'] = 9999
-        with rasterio.open('V:\\GIS_GZ\\joram\\CS_copy.tif', 'w', **hello) as dst:
-            dst.write(record)
 
 
 if __name__ == '__main__':
