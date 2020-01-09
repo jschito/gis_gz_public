@@ -1,3 +1,4 @@
+gdal<2.5
 pandas
 geopandas
 matplotlib
