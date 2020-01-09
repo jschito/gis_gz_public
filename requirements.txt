@@ -2,7 +2,7 @@ pandas
 geopandas
 matplotlib
 numpy
-networkx=2.2
+networkx==2.2
 rasterio
 fiona
 shapely
