@@ -1,0 +1,13 @@
+pandas
+geopandas
+matplotlib
+numpy
+networkx
+rasterio
+fiona
+shapely
+sklearn
+ipywidgets
+scipy
+descartes
+rtree
