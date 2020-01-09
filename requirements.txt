@@ -10,4 +10,4 @@ sklearn
 ipywidgets
 scipy
 descartes
-rtree
+
