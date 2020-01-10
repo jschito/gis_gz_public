@@ -4,14 +4,14 @@ channels:
 dependencies:
   - python=3.6
   - gdal==2.4.1
-  - matplotlib==3.2.0rc1
+  - matplotlib==3.2.0
   - pandas==0.25.1
-  - geopandas==0.1.1+8.g1e37902
-  - numpy==1.15.2+mkl
+  - geopandas==0.1.1
+  - numpy==1.15.2
   - networkx==2.2
   - rasterio==1.0.23
   - fiona==1.8.6
-  - shapely==1.6.4.post2
+  - shapely==1.6.4
   - scipy==1.1.0
   - scikit-learn==0.21.3
   - descartes==1.1.0
