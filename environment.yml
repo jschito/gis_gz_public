@@ -1,0 +1,22 @@
+name: gis_gz_environment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - matplotlib
+    - gdal<2.5
+    - pandas
+    - geopandas
+    - matplotlib
+    - numpy
+    - networkx==2.2
+    - rasterio
+    - fiona
+    - shapely
+    - sklearn
+    - ipywidgets
+    - scipy
+    - descartes
+    - rtree==0.9.2
