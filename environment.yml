@@ -5,6 +5,7 @@ dependencies:
   - python=3.6
   - pip
   - pip:
+    - rtree==0.9.2
     - matplotlib
     - pandas
     - geopandas
@@ -18,4 +19,3 @@ dependencies:
     - ipywidgets
     - scipy
     - descartes
-    - rtree==0.9.2
