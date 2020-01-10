@@ -15,7 +15,7 @@ dependencies:
   - rasterio
   - fiona
   - shapely
-  - sklearn
-  - ipywidgets
   - scipy
+  - scikit-learn
+  - ipywidgets
   - descartes
