@@ -6,7 +6,6 @@ dependencies:
   - pip
   - pip:
     - matplotlib
-    - gdal<2.5
     - pandas
     - geopandas
     - matplotlib
